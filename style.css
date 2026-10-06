@@ -1,0 +1,93 @@
+/* Cave theme */
+:root{--rock:#1f1b18;--rock2:#2a2521;--deep:#0c0b0a;--ink:#ece4d4;--mute:#ada293;--vein:#3d352d;--lamp:#f0a63a;--crystal:#6fe3d2;--chip:#d9543f;
+color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth;background:var(--rock)}
+body{margin:0;background:var(--rock);color:var(--ink);font:18px/1.65 Newsreader,Georgia,serif;position:relative}
+body::before{content:"";position:fixed;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.07;pointer-events:none;z-index:50}
+h1,h2,h3,h4,.d{font-family:"Alfa Slab One",Georgia,serif;font-weight:400;margin:0;line-height:1.1}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--crystal);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+[hidden]{display:none !important}
+.empty,.todo{color:var(--mute);font-style:italic}
+.scroll{overflow-x:auto}
+
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:rgba(31,27,24,.94);border-bottom:2px solid var(--vein);backdrop-filter:blur(6px)}
+nav .wrap{display:flex;gap:22px;align-items:center;overflow-x:auto;padding-top:12px;padding-bottom:12px;white-space:nowrap}
+nav b{font:400 17px "Alfa Slab One",serif;margin-right:auto;color:var(--lamp)}
+nav a{text-decoration:none;font-size:15px;color:var(--mute)}
+nav a:hover{color:var(--crystal)}
+
+/* hero: dark cave mouth with a headlamp */
+.hero{--x:50%;--y:50%;position:relative;background:var(--deep);color:#f4ead6;min-height:84vh;overflow:hidden;display:flex;align-items:flex-end;touch-action:pan-y}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 120%,rgba(111,227,210,.08),transparent 60%);pointer-events:none}
+.hero .layer{position:absolute;inset:0;display:flex;align-items:flex-end;padding:0 0 110px}
+.hero .dim{opacity:.14}
+.hero .lit{-webkit-mask-image:radial-gradient(circle 240px at var(--x) var(--y),#000 0,#000 30%,transparent 100%);mask-image:radial-gradient(circle 240px at var(--x) var(--y),#000 0,#000 30%,transparent 100%)}
+.hero h1{font-size:clamp(44px,8.6vw,112px);max-width:12ch;letter-spacing:-.01em}
+.hero .sub{margin:22px 0 0;max-width:44ch;font-size:20px;color:#e9dcc3}
+.lit h1 span.c{color:var(--lamp)}
+.hero .glow{position:absolute;inset:0;background:radial-gradient(circle 280px at var(--x) var(--y),rgba(240,166,58,.2),transparent 70%);pointer-events:none;z-index:2}
+.hint{position:absolute;top:70px;right:24px;font-size:14px;color:#cdbf9f;opacity:.7;z-index:3}
+.stal-top{position:absolute;left:0;right:0;top:0;height:120px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='120' viewBox='0 0 400 120'%3E%3Cpath d='M0 0 L-18 0 L0 40 L18 0 L12 0 L30 90 L48 0 L42 0 L60 26 L78 0 L82 0 L100 70 L118 0 L122 0 L140 34 L158 0 L167 0 L185 110 L203 0 L212 0 L230 30 L248 0 L244 0 L262 64 L280 0 L282 0 L300 24 L318 0 L327 0 L345 86 L363 0 L362 0 L380 36 L398 0 L400 0 Z' fill='%231f1b18'/%3E%3C/svg%3E") repeat-x top left/400px 120px;z-index:1}
+.stal-bottom{position:relative;height:84px;margin-top:-83px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='120' viewBox='0 0 400 120'%3E%3Cpath d='M0 120 L-18 120 L0 80 L18 120 L12 120 L30 30 L48 120 L42 120 L60 94 L78 120 L82 120 L100 50 L118 120 L122 120 L140 86 L158 120 L167 120 L185 10 L203 120 L212 120 L230 90 L248 120 L244 120 L262 56 L280 120 L282 120 L300 96 L318 120 L327 120 L345 34 L363 120 L362 120 L380 84 L398 120 L400 120 Z' fill='%231f1b18'/%3E%3C/svg%3E") repeat-x bottom left/400px 120px;z-index:3;pointer-events:none}
+
+section{padding:84px 0 0}
+h2{font-size:clamp(30px,4.6vw,50px);margin-bottom:16px;color:var(--ink)}
+h2::after{content:"";display:block;width:72px;height:5px;margin-top:14px;background:linear-gradient(90deg,var(--crystal),transparent);border-radius:3px}
+.lead{max-width:60ch;color:var(--mute)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}.hero .layer{padding-bottom:96px}}
+
+/* stone slabs */
+.card{position:relative;background:linear-gradient(160deg,#322c27 0%,var(--rock2) 55%,#231f1b 100%);padding:30px 30px 28px;clip-path:polygon(0 2%,5% 0,38% 1.5%,70% 0,100% 2.5%,99% 38%,100% 76%,97% 100%,62% 98.5%,28% 100%,0 97.5%,1% 56%);box-shadow:inset 0 0 0 1px var(--vein)}
+.card:nth-child(even){clip-path:polygon(0 3%,30% 0,64% 2%,100% 0,99% 45%,100% 98%,70% 100%,34% 98%,3% 100%,1% 60%)}
+.card::before{content:"";position:absolute;left:30px;right:30px;top:0;height:4px;background:linear-gradient(90deg,var(--lamp),var(--crystal) 60%,transparent);opacity:.85}
+.card.cave::before,.card.cause::before{background:linear-gradient(90deg,var(--crystal),var(--lamp) 55%,transparent)}
+.card h3{font-size:26px;margin-bottom:10px}
+.card p{margin:.6em 0}
+.card b{color:#f4dca8}
+.tag{display:inline-block;font:500 14px "Newsreader",serif;border:1px solid var(--crystal);border-radius:99px;padding:1px 12px;margin:0 6px 6px 0;color:var(--crystal)}
+.tag.touch{margin-top:10px;color:var(--lamp);border-color:var(--lamp)}
+.q{border-left:4px solid var(--lamp);padding:2px 0 2px 16px;margin:18px 0;font-style:italic;color:#f4e6c8}
+#conceptGrid{grid-template-columns:1fr}
+#personaBox{margin-top:34px}
+.pcard{display:grid;grid-template-columns:240px 1fr;gap:30px;align-items:start}
+@media(max-width:760px){.pcard{grid-template-columns:1fr}}
+.face{margin:0}
+.face img{width:100%;height:auto;display:block;border-radius:4px;border:3px solid var(--vein)}
+.face figcaption{font-size:14px;color:var(--mute);margin-top:8px}
+.card.persona .who{font-size:19px;color:var(--mute);margin-top:0}
+.card.persona h4.ins{margin:22px 0 6px;font-size:16px;color:var(--crystal)}
+.card ul{padding-left:20px;margin:8px 0}
+.card li{margin:6px 0}
+.colour{display:flex;align-items:center;gap:10px;margin-top:18px !important}
+.dot{width:16px;height:16px;border-radius:50%;background:var(--mute);flex:none}
+.dot.green{background:#4fcf86;box-shadow:0 0 10px #4fcf86}.dot.yellow{background:#e0b42b}.dot.red{background:var(--chip)}
+.journey{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}
+@media(max-width:900px){.journey{grid-template-columns:1fr}}
+
+table{width:100%;border-collapse:collapse;margin-top:26px;font-size:17px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--vein);vertical-align:top}
+th{font:400 16px "Alfa Slab One",serif;color:var(--lamp)}
+
+details{background:linear-gradient(160deg,#2f2924,var(--rock2));border:1px solid var(--vein);border-left:5px solid var(--lamp);margin:12px 0}
+summary{cursor:pointer;padding:16px 20px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";font:400 22px "Alfa Slab One",serif;width:22px;color:var(--crystal)}
+details[open] summary::before{content:"–"}
+summary b{font:400 19px "Alfa Slab One",serif}
+summary span{color:var(--mute);font-size:15px}
+.entry{padding:4px 24px 24px 56px;display:grid;gap:14px}
+.entry h4{font-size:15px;color:var(--crystal)}
+.entry p{margin:4px 0 0}
+
+/* the way out: sunrise */
+.exit{margin-top:96px;height:260px;position:relative;background:linear-gradient(180deg,var(--rock) 0%,#4a2f27 30%,#c9733d 62%,#f3b660 85%,#f8dc98 100%)}
+.exit svg{position:absolute;inset:0;width:100%;height:100%}
+footer{background:#14281e;color:#cfe3d4;padding:44px 0 60px;font-size:16px}
+footer h3{color:#f6e8c4;font-size:22px;margin-bottom:8px}
+footer li{margin:6px 0}
+.err{margin:40px auto;max-width:60ch;padding:20px;border:2px solid var(--chip);background:var(--rock2)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

@@ -1,0 +1,164 @@
+{
+  "name": "Lars",
+  "titleBefore": "A festival to",
+  "titleAccent": "get outside.",
+  "subtitle": "A cave festival that lures young city dwellers into nature.",
+  "conceptLead": "I chose the cave idea. The cave is the party where it all starts, and the way out is into nature.",
+  "concept": {
+    "name": "Cave festival",
+    "tags": [
+      "cave",
+      "party",
+      "nature",
+      "exploring"
+    ],
+    "fields": [
+      {
+        "label": "The idea",
+        "text": "A party in a cave with a wilderness feeling. You get in with a stone key. The party builds hype, so that afterwards people want to head out to nature and discover even more beautiful places."
+      },
+      {
+        "label": "Audience",
+        "text": "Students and young people who live in cities and never really get out of the city, to explore nature with friends."
+      },
+      {
+        "label": "Place and moment",
+        "text": "A cave in the countryside that a city dweller can reach without a car. A night that ends at sunrise, so the way out of the cave is also the moment you see nature."
+      },
+      {
+        "label": "Atmosphere",
+        "text": "Mysterious and playful, never intimidating. First-timers should feel safe: someone shows you how, what to bring and where to go."
+      }
+    ],
+    "hmw": "How might we lure students from the city into nature, and let them explore its beauty together with friends, even if they have never been camping?"
+  },
+  "personaLead": "The person this festival is designed for.",
+  "persona": {
+    "name": "Dirk de Hakselaer",
+    "line": "19 years old, psychology student, lives in the centre of Brussels",
+    "facts": [],
+    "needs": "He does not need convincing that nature is nice. He needs an easy first step.",
+    "avatar": "avatar.svg",
+    "avatarNote": "Illustration made with AI (Claude)",
+    "parts": [
+      {
+        "label": "Context",
+        "text": "19, studies psychology, lives in the centre of Brussels."
+      },
+      {
+        "label": "Behaviour",
+        "text": "Studies inside a lot. Sometimes goes to parties with friends. Has never really camped in nature."
+      },
+      {
+        "label": "Goals",
+        "text": "Wants to go camping and explore nature with his friends, and get out of the city bubble."
+      },
+      {
+        "label": "Pain points",
+        "text": "Has no idea how to start: how, what to bring or where to go. Does not know how to survive in the wild."
+      },
+      {
+        "label": "What would improve his life",
+        "text": "An easy first step that takes him into nature together with friends, where someone shows him how, what and where."
+      }
+    ],
+    "insightsTitle": "Insights",
+    "insights": [
+      "Dirk wants to go out into nature, but he does not know how and does not know how to survive in the wild.",
+      "Dirk's week is studying inside and parties in the city, but he is not yet on his way to nature.",
+      "Dirk will go to a party easily, but he would not go to nature on his own."
+    ]
+  },
+  "researchLead": "",
+  "research": [],
+  "logLead": "What I did, what I decided, and what I dropped. Newest first.",
+  "log": [
+    {
+      "title": "Cause card, persona and journey",
+      "date": "2 Oct",
+      "open": true,
+      "sections": [
+        {
+          "heading": "What I did",
+          "text": "Wrote my cause card, made my persona Dirk de Hakselaer, filled in an empathy map, wrote three insights and a before, during and after journey."
+        },
+        {
+          "heading": "Feedback and what I did with it",
+          "text": "My cause card got the colour green. Kobe did not say anything about it."
+        },
+        {
+          "heading": "Decision and dropped option",
+          "text": "Chose the cave festival. Dropped the gambling festival."
+        },
+        {
+          "heading": "Tools",
+          "text": "The illustration of Dirk is AI generated (Claude), and Claude helped me write out the persona and the first version of this site."
+        }
+      ]
+    },
+    {
+      "title": "Starting ideas",
+      "date": "30 Sep",
+      "open": false,
+      "sections": [
+        {
+          "heading": "What I did",
+          "text": "Came up with two festival ideas: a cave festival and a gambling festival."
+        }
+      ]
+    }
+  ],
+  "sources": [],
+  "causeLead": "The cause card I wrote in WC2.",
+  "cause": {
+    "issue": "Young people in cities are stuck in their city bubble. They do travel, but to other cities, and almost never to nature or to the outside of the city, where there is a lot to explore with friends.",
+    "who": "Students and young people who live in cities.",
+    "whyNow": "More and more technology makes it easier to stay home and game with friends instead of doing things together in real life. This is a problem for a whole generation, and if nothing happens now the next generation will grow up the same way. The deeper it gets ingrained in society, the harder it is to undo.",
+    "doubt": "I am unsure whether sending more people to nature has a negative effect on nature itself, because more visitors can mean more pollution and damage.",
+    "colour": "Green",
+    "colourNote": "Kobe did not say anything about my card."
+  },
+  "empathyLead": "What goes on in Dirk, in four parts.",
+  "empathy": {
+    "Says": [
+      "\"I really want to go camping someday.\"",
+      "\"Where would you even start?\"",
+      "\"I can't, I have an exam.\""
+    ],
+    "Thinks": [
+      "Going out and exploring the world."
+    ],
+    "Does": [
+      "Studying inside.",
+      "Going to parties. This is already a small step towards nature, but not all the way."
+    ],
+    "Feels": [
+      "Curious about what is outside the city.",
+      "A bit insecure because he does not know how any of it works."
+    ]
+  },
+  "journeyLead": "Before, during and after the festival.",
+  "journey": [
+    {
+      "phase": "Before",
+      "do": "Gets a stone key that will get him into the party.",
+      "feel": "Hyped and curious.",
+      "need": "A reason to look forward to it and something to hold on to.",
+      "touchpoint": "The stone key"
+    },
+    {
+      "phase": "During",
+      "do": "Enters the party with the stone key, in a cave with a wilderness feeling.",
+      "feel": "The wilderness feeling and the hype, safe with his friends.",
+      "need": "To feel that being out in nature is possible, with a little know-how and no lecture.",
+      "touchpoint": "The party in the cave"
+    },
+    {
+      "phase": "After",
+      "do": "Heads to nature with friends to discover even more beautiful places.",
+      "feel": "Wants more, and feels he can do it.",
+      "need": "Easy tips on where and how to go next, and how to leave nature clean.",
+      "touchpoint": "A way to find the next places"
+    }
+  ]
+}
