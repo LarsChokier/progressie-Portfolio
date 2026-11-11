@@ -166,7 +166,6 @@
       renderPersona(d);
       renderDirections(d);
       renderLog(d);
-      renderAi(d);
     })
     .catch(showError);
 })();

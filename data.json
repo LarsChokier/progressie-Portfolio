@@ -2,37 +2,72 @@
   "name": "Lars",
   "title": "Subterra",
   "subtitle": "Zero bars. All bass.",
-
   "conceptLead": "A weekend festival for city students who think nature is boring and far away.",
   "concept": {
-    "tags": ["Weekend", "Ardennes", "Caves of Han"],
+    "tags": [
+      "Weekend",
+      "Ardennes",
+      "Caves of Han"
+    ],
     "text": "You walk through the Ardennes to a campsite, sleep under the trees and party deep inside the Caves of Han, where your phone loses its signal all by itself. You go home with a map called \"Now go touch some grass\", full of hidden nature spots for your next trip."
   },
   "facts": [
-    { "title": "The cause", "text": "City students live almost only inside the city and spend little to no time in nature.", "quote": "How might we turn a night out into a first step into nature for city students in Brussels?" },
-    { "title": "The goal", "text": "After our festival, Dirk is excited about nature and plans his first trip with his friends." },
-    { "title": "The USP", "text": "Unlike regular festivals, which keep you in the city, Subterra turns the party itself into the first step into nature." },
-    { "title": "The tone", "list": ["Adventurous, not extreme", "Light, not preachy", "Fun, not boring"] }
+    {
+      "title": "The cause",
+      "text": "City students live almost only inside the city and spend little to no time in nature.",
+      "quote": "How might we turn a night out into a first step into nature for city students in Brussels?"
+    },
+    {
+      "title": "The goal",
+      "text": "After our festival, Dirk is excited about nature and plans his first trip with his friends."
+    },
+    {
+      "title": "The USP",
+      "text": "Unlike regular festivals, which keep you in the city, Subterra turns the party itself into the first step into nature."
+    },
+    {
+      "title": "The tone",
+      "list": [
+        "Adventurous, not extreme",
+        "Light, not preachy",
+        "Fun, not boring"
+      ]
+    }
   ],
-
   "persona": {
     "name": "Dirk",
     "line": "19, psychology student, lives in a student room in Brussels",
     "avatar": "avatar.svg",
-    "avatarNote": "Illustration made with AI (Claude)",
     "parts": [
-      { "label": "Goal", "text": "Switch off from studying and do something real with his friends." },
-      { "label": "Pain point", "text": "Nature feels boring and far away. He has no car, no idea where to go, and his friends don't go either." }
+      {
+        "label": "Goal",
+        "text": "Switch off from studying and do something real with his friends."
+      },
+      {
+        "label": "Pain point",
+        "text": "Nature feels boring and far away. He has no car, no idea where to go, and his friends don't go either."
+      }
     ],
     "insight": "Dirk wants to go out into nature, but he does not know how to survive and camp in the wild."
   },
   "journey": [
-    { "phase": "Before", "text": "Studies, scrolls, stays in the city.", "feel": "Curious, but sceptical: \"nature is boring.\"" },
-    { "phase": "During", "text": "Takes the train, hikes to camp, parties in the cave.", "feel": "Out of his comfort zone." },
-    { "phase": "After", "text": "Unfolds his map of hidden spots and plans a trip.", "feel": "Proud and hungry for more." }
+    {
+      "phase": "Before",
+      "text": "Studies, scrolls, stays in the city.",
+      "feel": "Curious, but sceptical: \"nature is boring.\""
+    },
+    {
+      "phase": "During",
+      "text": "Takes the train, hikes to camp, parties in the cave.",
+      "feel": "Out of his comfort zone."
+    },
+    {
+      "phase": "After",
+      "text": "Unfolds his map of hidden spots and plans a trip.",
+      "feel": "Proud and hungry for more."
+    }
   ],
   "touchpoints": "Instagram ads, posters in schools, other social media",
-
   "directionsLead": "Three visual directions for the festival. Each has three words, a moodboard and a first mark.",
   "directions": [
     {
@@ -46,7 +81,11 @@
     },
     {
       "name": "Zero bars",
-      "words": ["witty", "direct", "playful"],
+      "words": [
+        "witty",
+        "direct",
+        "playful"
+      ],
       "mark": "img/bars-mark.png",
       "markAlt": "Zero bars mark: three empty signal bars with the word Subterra and three turquoise dots",
       "markBg": "light",
@@ -55,7 +94,11 @@
     },
     {
       "name": "Campfire",
-      "words": ["warm", "adventurous", "gathered"],
+      "words": [
+        "warm",
+        "adventurous",
+        "gathered"
+      ],
       "mark": "img/fire-mark.png",
       "markAlt": "Campfire mark: a red flame and two logs inside a dark cave opening",
       "markBg": "dark",
@@ -63,18 +106,82 @@
       "sketch": "img/fire-sketch.jpg"
     }
   ],
-
   "logLead": "One entry per session, newest first.",
   "log": [
     {
+      "title": "Final package: D-5, D-6 and the motion piece",
+      "date": "Nov",
+      "text": "I finished the touchpoint, made the capture video and wrote my brand guidelines. For the motion piece I drew the frames of my logo animation by hand and turned them into a stop-motion, with extra frames in between to make the movement smoother: from a three-frame sketch to five hand-drawn frames.",
+      "open": true
+    },
+    {
+      "title": "Final pitch (D-4)",
+      "date": "WC9",
+      "text": "I pitched Subterra as a total concept in seven minutes. The sponsor said yes: the safety of the cave convinced him, but before investing he wanted to see a good route to get there, and asked about carbon monoxide poisoning. The audience member got bored by my technical details, and found it ironic to use a website and a QR code for a festival about leaving your phone. The lecturer said the presentation and prototype did not match the style of my logo: the whole thing needed to feel more cohesive. The three remarks I acted on: (1) a good route: stop 3 now spells out the way there, a shuttle from Brussels and the forest path; (2) the irony of a website: the website is only the way in, and after booking a \"You're in\" screen says your ticket and map come on paper, from there on it's zero bars; (3) more cohesive: one tagline, written the same way everywhere, and my brand guidelines (D-6) now set the rules for every asset. What I did not act on: \"skip technical details\". That is about how I present, not about the design. Next time I tell the story first and keep the details for the questions.",
+      "images": [
+        {
+          "src": "img/wc9-strip-sponsor.jpg",
+          "caption": "Sponsor strip"
+        },
+        {
+          "src": "img/wc9-strip-audience.jpg",
+          "caption": "Audience member strip"
+        }
+      ]
+    },
+    {
+      "title": "The campaign",
+      "date": "WC8",
+      "text": "I designed the campaign in three phases: a floor sticker in the metro as a teaser, an Instagram story for the launch, and a sign at the cave entrance during the festival."
+    },
+    {
+      "title": "Testing (round 1) and the channel plan (D-3)",
+      "date": "27 Oct",
+      "text": "I tested v1 with three classmates. Two of them had to click through every stop to find one thing, and two could not find how to contact us. In v2 I added tappable pins, a menu with contact info and a \"More info\" pop-up. I also made my channel plan, with floor stickers in metro stations as my non-conventional touchpoint."
+    },
+    {
+      "title": "From logo to system",
+      "date": "WC6",
+      "text": "I put my identity into Figma as colour variables and text styles, tested the minimum size of my logo, and built the first prototype: a map with four stops on the way to the cave. I also sketched the logo animation: three frames, about four seconds in total. First only the word \"Subterra\" (1 s). Then three dots appear and disappear, like a phone searching for signal (± 2 s). Finally the three bars load in, as if you are going deeper underground (± 1 s).",
+      "images": [
+        {
+          "src": "img/wc6-motion-sketch.jpg",
+          "caption": "First sketch of the logo animation"
+        }
+      ]
+    },
+    {
+      "title": "Mid pitch",
+      "date": "WC5",
+      "text": "At the mid pitch I showed my moodboards and my three words. Both classmates leaned towards the campfire direction: Igor picked moodboard 1 because it \"really fits the campfire vibe\". Oscar missed \"adventurous\" and \"playful\" in my work, which pushed me to make adventure more visible. Their \"what if\" questions stayed with me until the end: \"What if people are too addicted to their phone?\" became the idea behind Zero bars, and \"What if the cave caved in?\" made me add safety information to the prototype.",
+      "images": [
+        {
+          "src": "img/wc5-feedback-oscar.jpg",
+          "caption": "Feedback card from Oscar"
+        },
+        {
+          "src": "img/wc5-feedback-igor.jpg",
+          "caption": "Feedback card from Igor"
+        }
+      ]
+    },
+    {
       "title": "Three visual directions",
       "date": "13 Oct",
-      "open": true,
       "text": "Made a moodboard and a first mark for three directions: Topo, Zero bars and Campfire. These are my first sketches. The finished marks are in the directions section above.",
       "images": [
-        { "src": "img/topo-sketch.jpg", "caption": "Topo sketch" },
-        { "src": "img/bars-sketch.jpg", "caption": "Zero bars sketch" },
-        { "src": "img/fire-sketch.jpg", "caption": "Campfire sketch" }
+        {
+          "src": "img/topo-sketch.jpg",
+          "caption": "Topo sketch"
+        },
+        {
+          "src": "img/bars-sketch.jpg",
+          "caption": "Zero bars sketch"
+        },
+        {
+          "src": "img/fire-sketch.jpg",
+          "caption": "Campfire sketch"
+        }
       ]
     },
     {
@@ -85,10 +192,20 @@
     {
       "title": "What's the big idea?",
       "date": "7 Oct",
-      "text": "Clustered ideas, wrote the goal and the USP, and brainstormed names and taglines. Chose the name Subterra and the tagline \"Zero bars. All bass.\" \"Touch some grass\" became the name of the take-home map.",
+      "text": "Clustered ideas, wrote the goal and the USP, and brainstormed names and taglines. Chose the name Subterra and the tagline \"Zero bars. All bass.\" \"Touch some grass\" became the name of the take-home map. I also sorted my touchpoint ideas from ordinary to original. Posters at school and online ads were feasible but ordinary; an interactive map on a huge screen was not yet feasible. That idea stayed with me: it later became my core touchpoint, an interactive map, but on your phone.",
       "images": [
-        { "src": "img/wc3-clusters.jpg", "caption": "Clusters" },
-        { "src": "img/wc3-names.jpg", "caption": "Names and taglines" }
+        {
+          "src": "img/wc3-clusters.jpg",
+          "caption": "Clusters"
+        },
+        {
+          "src": "img/wc3-names.jpg",
+          "caption": "Names and taglines"
+        },
+        {
+          "src": "img/wc3-matrix.jpg",
+          "caption": "Touchpoint ideas: now, wow, how"
+        }
       ]
     },
     {
@@ -96,9 +213,18 @@
       "date": "2 Oct",
       "text": "Wrote my cause card (colour: green), made my persona Dirk and filled in his empathy map.",
       "images": [
-        { "src": "img/wc2-cause.jpg", "caption": "Cause card" },
-        { "src": "img/wc2-persona.jpg", "caption": "Persona" },
-        { "src": "img/wc2-empathy.jpg", "caption": "Empathy map" }
+        {
+          "src": "img/wc2-cause.jpg",
+          "caption": "Cause card"
+        },
+        {
+          "src": "img/wc2-persona.jpg",
+          "caption": "Persona"
+        },
+        {
+          "src": "img/wc2-empathy.jpg",
+          "caption": "Empathy map"
+        }
       ]
     },
     {
@@ -106,14 +232,11 @@
       "date": "30 Sep",
       "text": "Came up with two festival ideas, a cave festival and a gambling festival, and chose the cave festival.",
       "images": [
-        { "src": "img/wc1-brainstorm.jpg", "caption": "Brainstorm map" }
+        {
+          "src": "img/wc1-brainstorm.jpg",
+          "caption": "Brainstorm map"
+        }
       ]
     }
-  ],
-
-  "ai": [
-    "Claude made the illustration of Dirk and helped me build this website.",
-    "Claude gave feedback on my moodboards and marks and suggested wording for my three words. The marks and drawings are my own.",
-    "Moodboard images are references from other designers."
   ]
 }
