@@ -135,6 +135,21 @@
       det.appendChild(sum);
       var body = el("div", "entry");
       body.appendChild(el("p", "", entry.text));
+      if (entry.video && has(entry.video.src)) {
+        var vf = el("figure", "fig");
+        var v = el("video");
+        v.src = entry.video.src;
+        v.controls = true;
+        v.loop = true;
+        v.muted = true;
+        v.playsInline = true;
+        v.style.width = "100%";
+        v.style.maxWidth = "480px";
+        v.style.display = "block";
+        vf.appendChild(v);
+        if (has(entry.video.caption)) vf.appendChild(el("figcaption", "", entry.video.caption));
+        body.appendChild(vf);
+      }
       if (entry.images && entry.images.length) {
         var row = el("div", "figs");
         entry.images.forEach(function (im) { row.appendChild(figure(im)); });
@@ -148,6 +163,12 @@
   function renderAi(d) {
     var ul = $("aiList");
     (d.ai || []).forEach(function (s) { ul.appendChild(el("li", "", s)); });
+  }
+
+  function renderReflection(d) {
+    var box = $("reflectionBox");
+    if (!box || !d.reflection) return;
+    d.reflection.forEach(function (t) { box.appendChild(el("p", "", t)); });
   }
 
   function showError() {
@@ -166,6 +187,7 @@
       renderPersona(d);
       renderDirections(d);
       renderLog(d);
+      renderReflection(d);
     })
     .catch(function (e) { console.error(e); showError(); });
 })();
