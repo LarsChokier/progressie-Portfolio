@@ -152,20 +152,20 @@
 
   function showError() {
     var box = el("div", "err");
-    box.appendChild(el("h3", "", "data.json could not be loaded"));
-    box.appendChild(el("p", "", "Browsers block loading data.json when you open index.html by double-clicking it. Open the site through a local server (for example the Live Server extension in VS Code) or upload it to a host like GitHub Pages or Netlify."));
+    box.appendChild(el("h3", "", "The page could not be loaded"));
+    box.appendChild(el("p", "", "Something went wrong while building the page. Check the browser console for details."));
     document.querySelector("main").prepend(box);
   }
 
   initSpotlight();
-  fetch("data.json")
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+  Promise.resolve(window.SITE_DATA)
     .then(function (d) {
+      if (!d) throw new Error("no data");
       renderHero(d);
       renderConcept(d);
       renderPersona(d);
       renderDirections(d);
       renderLog(d);
     })
-    .catch(showError);
+    .catch(function (e) { console.error(e); showError(); });
 })();
